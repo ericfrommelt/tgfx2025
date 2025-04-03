@@ -1,16 +1,5 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <VueCanvas/>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-
-<script>
-  import VueCanvas from "@/components/tgfx-001.vue";
-
-  export default {
-    components: {
-      VueCanvas
-    }
-  };
-</script>
